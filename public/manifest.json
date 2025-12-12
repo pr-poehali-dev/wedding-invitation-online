@@ -1,0 +1,20 @@
+{
+  "name": "Данил & Алена - Свадьба 2026",
+  "short_name": "Свадьба",
+  "description": "Приглашение на свадьбу Данила и Алены 05.09.2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#9b87f5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "social"],
+  "lang": "ru"
+}

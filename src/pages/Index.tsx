@@ -32,17 +32,17 @@ const Index = () => {
         
         <div className="relative z-10 text-center space-y-8 animate-fade-in">
           <div className="space-y-2">
-            <p className="text-muted-foreground text-lg tracking-widest uppercase">Приглашаем на свадьбу</p>
-            <div className="flex items-center justify-center gap-8 my-8">
-              <h1 className="text-6xl md:text-8xl font-light text-primary">Данил</h1>
-              <Icon name="Heart" className="text-primary animate-pulse" size={48} />
-              <h1 className="text-6xl md:text-8xl font-light text-primary">Алена</h1>
+            <p className="text-muted-foreground text-sm sm:text-lg tracking-widest uppercase">Приглашаем на свадьбу</p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 my-8">
+              <h1 className="text-5xl sm:text-6xl md:text-8xl font-light text-primary">Данил</h1>
+              <Icon name="Heart" className="text-primary animate-pulse" size={36} />
+              <h1 className="text-5xl sm:text-6xl md:text-8xl font-light text-primary">Алена</h1>
             </div>
           </div>
           
           <div className="space-y-4">
-            <p className="text-4xl md:text-5xl font-serif text-foreground">05 сентября 2026</p>
-            <p className="text-xl text-muted-foreground italic">Ждем Вас на свадьбе</p>
+            <p className="text-3xl sm:text-4xl md:text-5xl font-serif text-foreground">05 сентября 2026</p>
+            <p className="text-lg sm:text-xl text-muted-foreground italic">Ждем Вас на свадьбе</p>
           </div>
         </div>
 
@@ -59,70 +59,70 @@ const Index = () => {
             </p>
             
             <Card className="border-primary/20 shadow-lg">
-              <CardContent className="p-8 space-y-4">
-                <div className="flex items-center justify-center gap-3">
+              <CardContent className="p-4 sm:p-8 space-y-4">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
                   <Icon name="Calendar" className="text-primary" size={24} />
-                  <p className="text-2xl font-serif">05.09.2026 в 14:30</p>
+                  <p className="text-xl sm:text-2xl font-serif text-center">05.09.2026 в 14:30</p>
                 </div>
-                <div className="flex items-center justify-center gap-3">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
                   <Icon name="MapPin" className="text-primary" size={24} />
-                  <p className="text-xl">Место встречи: ЗАГС</p>
+                  <p className="text-lg sm:text-xl text-center">Место встречи: ЗАГС</p>
                 </div>
               </CardContent>
             </Card>
           </div>
 
-          <div className="py-12">
-            <p className="text-2xl md:text-3xl font-serif italic text-primary/80">
+          <div className="py-8 sm:py-12 px-4">
+            <p className="text-xl sm:text-2xl md:text-3xl font-serif italic text-primary/80">
               "Там, где посеяна любовь, растёт радость."
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-secondary/30">
-        <div className="max-w-4xl mx-auto space-y-16">
+      <section className="py-12 sm:py-20 px-4 bg-secondary/30">
+        <div className="max-w-4xl mx-auto space-y-8 sm:space-y-16">
           <Card className="overflow-hidden shadow-xl">
-            <div className="bg-primary/5 p-8 border-b border-primary/20">
-              <h2 className="text-4xl font-serif text-center text-primary">Свадебное расписание</h2>
+            <div className="bg-primary/5 p-4 sm:p-8 border-b border-primary/20">
+              <h2 className="text-2xl sm:text-4xl font-serif text-center text-primary">Свадебное расписание</h2>
             </div>
-            <CardContent className="p-8 space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="w-24 text-right">
-                  <p className="text-xl font-semibold text-primary">14:30</p>
+            <CardContent className="p-4 sm:p-8 space-y-4 sm:space-y-6">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="w-16 sm:w-24 text-right flex-shrink-0">
+                  <p className="text-lg sm:text-xl font-semibold text-primary">14:30</p>
                 </div>
                 <div className="flex-1">
-                  <p className="text-lg">Регистрация в ЗАГСе</p>
+                  <p className="text-base sm:text-lg">Регистрация в ЗАГСе</p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="w-24 text-right">
-                  <p className="text-xl font-semibold text-primary">16:00</p>
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="w-16 sm:w-24 text-right flex-shrink-0">
+                  <p className="text-lg sm:text-xl font-semibold text-primary">16:00</p>
                 </div>
                 <div className="flex-1">
-                  <p className="text-lg">Начало банкета</p>
+                  <p className="text-base sm:text-lg">Начало банкета</p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="w-24 text-right">
-                  <p className="text-xl font-semibold text-primary">18:00</p>
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="w-16 sm:w-24 text-right flex-shrink-0">
+                  <p className="text-lg sm:text-xl font-semibold text-primary">18:00</p>
                 </div>
                 <div className="flex-1">
-                  <p className="text-lg">Развлекательная программа</p>
+                  <p className="text-base sm:text-lg">Развлекательная программа</p>
                 </div>
               </div>
             </CardContent>
           </Card>
 
           <Card className="overflow-hidden shadow-xl">
-            <div className="bg-primary/5 p-8 border-b border-primary/20">
-              <div className="flex items-center justify-center gap-3">
-                <Icon name="Utensils" className="text-primary" size={32} />
-                <h2 className="text-4xl font-serif text-primary">Меню</h2>
+            <div className="bg-primary/5 p-4 sm:p-8 border-b border-primary/20">
+              <div className="flex items-center justify-center gap-2 sm:gap-3">
+                <Icon name="Utensils" className="text-primary" size={24} />
+                <h2 className="text-2xl sm:text-4xl font-serif text-primary">Меню</h2>
               </div>
             </div>
-            <CardContent className="p-8">
-              <p className="text-lg text-center text-foreground/80 leading-relaxed">
+            <CardContent className="p-4 sm:p-8">
+              <p className="text-base sm:text-lg text-center text-foreground/80 leading-relaxed">
                 Меню разнообразно, поэтому сообщите нам заранее, если у вас есть какие-либо предпочтения или диетические ограничения. 
                 После подтверждения вы сможете пройти опрос о своих вкусовых предпочтениях и напитках.
               </p>
@@ -130,17 +130,17 @@ const Index = () => {
           </Card>
 
           <Card className="overflow-hidden shadow-xl">
-            <div className="bg-primary/5 p-8 border-b border-primary/20">
-              <div className="flex items-center justify-center gap-3">
-                <Icon name="Gift" className="text-primary" size={32} />
-                <h2 className="text-4xl font-serif text-primary">Пожелания по подаркам</h2>
+            <div className="bg-primary/5 p-4 sm:p-8 border-b border-primary/20">
+              <div className="flex items-center justify-center gap-2 sm:gap-3">
+                <Icon name="Gift" className="text-primary" size={24} />
+                <h2 className="text-xl sm:text-3xl md:text-4xl font-serif text-primary text-center">Пожелания по подаркам</h2>
               </div>
             </div>
-            <CardContent className="p-8 space-y-4">
-              <p className="text-lg text-center font-semibold text-primary">
+            <CardContent className="p-4 sm:p-8 space-y-4">
+              <p className="text-base sm:text-lg text-center font-semibold text-primary">
                 Ваше присутствие в день нашей свадьбы - самый значимый подарок для нас!
               </p>
-              <p className="text-base text-center text-foreground/80 leading-relaxed">
+              <p className="text-sm sm:text-base text-center text-foreground/80 leading-relaxed">
                 Мы понимаем, что дарить цветы на свадьбу - это традиция, но мы не сможем насладиться их красотой в полной мере... 
                 Будем рады любой другой альтернативе (вино или в денежном эквиваленте).
               </p>
@@ -148,14 +148,14 @@ const Index = () => {
           </Card>
 
           <Card className="overflow-hidden shadow-xl border-primary/30">
-            <div className="bg-primary/5 p-8 border-b border-primary/20">
-              <div className="flex items-center justify-center gap-3">
-                <Icon name="Info" className="text-primary" size={32} />
-                <h2 className="text-4xl font-serif text-primary">Примечание</h2>
+            <div className="bg-primary/5 p-4 sm:p-8 border-b border-primary/20">
+              <div className="flex items-center justify-center gap-2 sm:gap-3">
+                <Icon name="Info" className="text-primary" size={24} />
+                <h2 className="text-2xl sm:text-4xl font-serif text-primary">Примечание</h2>
               </div>
             </div>
-            <CardContent className="p-8">
-              <p className="text-base text-center text-foreground/80 leading-relaxed">
+            <CardContent className="p-4 sm:p-8">
+              <p className="text-sm sm:text-base text-center text-foreground/80 leading-relaxed">
                 Будем благодарны, если вы воздержитесь от криков "Горько" на празднике, ведь поцелуй — это знак выражения чувств, 
                 он не может быть по заказу.
               </p>
@@ -164,34 +164,34 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-b from-secondary/30 to-white">
+      <section className="py-12 sm:py-20 px-4 bg-gradient-to-b from-secondary/30 to-white">
         <div className="max-w-2xl mx-auto">
           <Card className="overflow-hidden shadow-2xl border-2 border-primary/20">
-            <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 p-10 border-b border-primary/20">
-              <div className="flex items-center justify-center gap-3 mb-2">
-                <Icon name="UserCheck" className="text-primary" size={36} />
-                <h2 className="text-4xl md:text-5xl font-serif text-primary">Подтверждение</h2>
+            <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 p-4 sm:p-10 border-b border-primary/20">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-2">
+                <Icon name="UserCheck" className="text-primary" size={28} />
+                <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif text-primary text-center">Подтверждение</h2>
               </div>
-              <p className="text-center text-muted-foreground mt-4">
+              <p className="text-center text-muted-foreground mt-4 text-sm sm:text-base">
                 Пожалуйста, подтвердите свое присутствие до 01.05.2026
               </p>
             </div>
-            <CardContent className="p-10">
-              <form onSubmit={handleSubmit} className="space-y-6">
+            <CardContent className="p-4 sm:p-10">
+              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="text-lg">Ваше имя *</Label>
+                  <Label htmlFor="name" className="text-base sm:text-lg">Ваше имя *</Label>
                   <Input
                     id="name"
                     placeholder="Иван Иванов"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
-                    className="h-12 text-lg"
+                    className="h-11 sm:h-12 text-base sm:text-lg"
                   />
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="guests" className="text-lg">Количество гостей *</Label>
+                  <Label htmlFor="guests" className="text-base sm:text-lg">Количество гостей *</Label>
                   <Input
                     id="guests"
                     type="number"
@@ -200,23 +200,23 @@ const Index = () => {
                     value={formData.guests}
                     onChange={(e) => setFormData({ ...formData, guests: e.target.value })}
                     required
-                    className="h-12 text-lg"
+                    className="h-11 sm:h-12 text-base sm:text-lg"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="message" className="text-lg">Пожелания или диетические ограничения</Label>
+                  <Label htmlFor="message" className="text-base sm:text-lg">Пожелания или диетические ограничения</Label>
                   <Textarea
                     id="message"
                     placeholder="Ваши комментарии..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     rows={4}
-                    className="text-lg resize-none"
+                    className="text-base sm:text-lg resize-none"
                   />
                 </div>
 
-                <Button type="submit" size="lg" className="w-full h-14 text-lg font-semibold">
+                <Button type="submit" size="lg" className="w-full h-12 sm:h-14 text-base sm:text-lg font-semibold">
                   Подтвердить присутствие
                 </Button>
               </form>
@@ -225,17 +225,17 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto space-y-12">
+      <section className="py-12 sm:py-20 px-4">
+        <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12">
           <Card className="overflow-hidden shadow-xl">
-            <div className="bg-primary/5 p-8 border-b border-primary/20">
-              <div className="flex items-center justify-center gap-3">
-                <Icon name="MapPin" className="text-primary" size={32} />
-                <h2 className="text-4xl font-serif text-primary">Место проведения</h2>
+            <div className="bg-primary/5 p-4 sm:p-8 border-b border-primary/20">
+              <div className="flex items-center justify-center gap-2 sm:gap-3">
+                <Icon name="MapPin" className="text-primary" size={24} />
+                <h2 className="text-2xl sm:text-4xl font-serif text-primary">Место проведения</h2>
               </div>
             </div>
             <CardContent className="p-0">
-              <div className="w-full h-96 bg-muted relative">
+              <div className="w-full h-64 sm:h-96 bg-muted relative">
                 <iframe
                   src="https://www.openstreetmap.org/export/embed.html?bbox=37.5%2C55.7%2C37.7%2C55.8&layer=mapnik&marker=55.7558%2C37.6173"
                   width="100%"
@@ -246,8 +246,8 @@ const Index = () => {
                   className="grayscale hover:grayscale-0 transition-all duration-300"
                 />
               </div>
-              <div className="p-8 bg-white">
-                <p className="text-lg text-center">
+              <div className="p-4 sm:p-8 bg-white">
+                <p className="text-base sm:text-lg text-center">
                   <Icon name="Navigation" className="inline mr-2 text-primary" size={20} />
                   ЗАГС, Москва
                 </p>
@@ -256,27 +256,27 @@ const Index = () => {
           </Card>
 
           <Card className="overflow-hidden shadow-xl bg-gradient-to-br from-primary/5 to-secondary/20">
-            <CardContent className="p-10 text-center space-y-6">
-              <div className="flex items-center justify-center gap-3">
-                <Icon name="Camera" className="text-primary" size={32} />
-                <h2 className="text-4xl font-serif text-primary">Фото</h2>
+            <CardContent className="p-6 sm:p-10 text-center space-y-4 sm:space-y-6">
+              <div className="flex items-center justify-center gap-2 sm:gap-3">
+                <Icon name="Camera" className="text-primary" size={24} />
+                <h2 className="text-2xl sm:text-4xl font-serif text-primary">Фото</h2>
               </div>
-              <p className="text-lg text-foreground/80">
+              <p className="text-base sm:text-lg text-foreground/80">
                 Опубликуйте фото дня нашей свадьбы в соц.сетях с хештегом
               </p>
-              <p className="text-3xl font-semibold text-primary">#ДанилАлена2026</p>
+              <p className="text-2xl sm:text-3xl font-semibold text-primary">#ДанилАлена2026</p>
             </CardContent>
           </Card>
         </div>
       </section>
 
-      <footer className="py-12 px-4 bg-primary/5 border-t border-primary/20">
-        <div className="max-w-4xl mx-auto text-center space-y-4">
-          <p className="text-3xl font-serif text-primary">Ждем Вас!</p>
-          <div className="flex items-center justify-center gap-2 text-muted-foreground">
-            <Icon name="Heart" className="text-primary" size={20} />
+      <footer className="py-8 sm:py-12 px-4 bg-primary/5 border-t border-primary/20">
+        <div className="max-w-4xl mx-auto text-center space-y-3 sm:space-y-4">
+          <p className="text-2xl sm:text-3xl font-serif text-primary">Ждем Вас!</p>
+          <div className="flex items-center justify-center gap-2 text-sm sm:text-base text-muted-foreground">
+            <Icon name="Heart" className="text-primary" size={18} />
             <p>Данил & Алена</p>
-            <Icon name="Heart" className="text-primary" size={20} />
+            <Icon name="Heart" className="text-primary" size={18} />
           </div>
         </div>
       </footer>
